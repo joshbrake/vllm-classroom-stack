@@ -1,0 +1,13 @@
+# --- Secrets: NEVER commit (use the *.example templates instead) ---
+.env
+.env.langfuse
+*.local.env
+
+# --- TLS material ---
+*.key
+*.crt
+*.pem
+
+# --- Local agent / editor / OS state ---
+.claude/settings.local.json
+.DS_Store
