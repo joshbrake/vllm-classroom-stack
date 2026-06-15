@@ -54,7 +54,7 @@ Two Docker Compose **projects** on one host, bridged by a shared external networ
                                      ▼
  coding harness ───────────────►┌─────────┐    success_callback     ┌──────────┐
  (per-student API key)          │ LiteLLM │ ──────────────────────► │ Langfuse │
-                                └────┬────┘    (full I/O + user +    └──────────┘
+                                └────┬────┘    (full I/O + user +   └──────────┘
                                      │          session metadata)
                                      ▼
                                 ┌─────────┐
